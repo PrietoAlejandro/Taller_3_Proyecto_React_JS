@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0b3860 80.34%);
+} 
+
+#contenopi
+{
+      height: 26em;
+}
+h1{
+      font-size: 1.5em;
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+    /* width: 100%; */
+    align-items: start;
+    position: absolute;
+    height: 27%;
+    margin-top: -13%;
+    flex-direction: inherit;
+    background-image: none;
+    margin-top: -2%;
+    flex-direction: inherit;
+}
+.all img
+{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 40px;
+    margin-left: 9%;
+    margin-top: 3%;
+}
+
+#opinion
+{
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+      color:var(--blanco);
+      width: 27%;
+      border-radius: 3%;
+}
+
+.find {
+      text-align: center;
+      font-size: 1.8rem;
+      font-size: 2.2rem;
+  }
+
+
+.nombre
+{
+      background-image: url(Group\ 200.svg);
+      background-size: cover;
+}
+
+.descripcion {
+      display: flex;
+      font-family: 'Marcellus', serif;
+      justify-content: center;
+      margin-top: 2%;
+      font-size: 1.2rem;
+  }
+
+.descripcion p{
+margin-left: 7%;
+}
+.descripcion p{
+margin-left: 9%;
+    margin-bottom: 5%;
+}
+.nombre h5{
+      margin-left: 30%;
+      margin-top: -13%;
+      font-size: 1.5rem;
+}
+
+.stars {
+      margin-bottom: 10%;
+      margin-left: 30%;
+}
+
+#opinion1
+{
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+      color:var(--blanco);
+      width: 27%;
+      border-radius: 3%;
+}
+
+.nombre1
+{
+      background-image: url(Group\ 200.svg);
+      background-size: cover;
+}
+
+.descripcion1 {
+      display: flex;
+      font-family: 'Marcellus', serif;
+      justify-content: center;
+      margin-top: 6%;
+      font-size: 1.2rem;
+  }
+.descripcion1 p{
+margin-left: 6%;
+
+}
+.descripcion1 p{
+margin-left: 9%;
+    margin-bottom: 5%;
+}
+.nombre1 h5{
+      margin-left: 30%;
+      margin-top: -13%;
+      font-size: 1.5rem;
+}
+
+.stars {
+      margin-bottom: 10%;
+      margin-left: 30%;
+}
+
+.pie-pagina
+{
+      background-color: var(--negro);
+      color: white;
+      padding: 2%;
+}
+.pie-pagina .texto
+{
+      display: flex;
+      justify-content: space-around;
+      font-size: 1.2em;
+      align-items: baseline;
+      height: 9rem;
+}
+.parrafo
+{
+      width: 25%;
+}
+.icons
+{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+}
+.icons div
+{
+      display:flex;
+      padding: 2%;
+}
+.politicas
+{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 2%;
+}
+
+.redes
+{
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
+      margin-top: 5%;
+}
+#direccionamiento1
+{
+      margin-left: 3%;
+}
+
+div#separador1 {
+      margin-top: 13%;
+  }
+
+  @media screen and (min-width: 768px){
+   
+}
+
+
+/*Resolución notebooks*/
+@media screen and (min-width: 1024px){
+      
+      nav{
+          display: flex;
+          flex-direction: row; 
+          width: 100%;
+          justify-content: space-between;
+          background-color: var(--negro2);
+      }
+      .logo{
+          padding: 1rem;
+      }
+      .logo img
+      {
+          width: 100%;
+          max-width: 180px;       
+      }
+      .logo i
+      { 
+          display: none;
+      } 
+      .menu
+      {
+          background-color: var(--negro2);
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+      }
+      .menu-hr
+      { 
+          display: none;
+      }
+      .navbar-button
+      {
+          background-color:var(--azuloscuro);
+      }       
+  }
+
+  /*Resolución notebooks*/
+@media screen and (min-width: 1308px){
+      #descripcion{
+            justify-content: center;
+      }
+    
+}
+
+  /*Resolución notebooks*/
+  @media screen and (min-width: 320px) and (max-width : 768px){
+      .logo{
+            background-color: var(--negro2);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+            width: 100%;
+            padding: 1%;
+        }
+
+        #textos1 p{
+            font-size: 1rem;
+        }
+        
+      .logo img{
+            width: 100%;
+          max-width: 200px;
+      }
+      .logo i{
+            color: var(--blanco);
+          font-size: 2rem;
+      }
+      .menu{
+            background-color: rgba(1, 10, 52, 0.838);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;  
+            
+        }
+        .menu-hr{
+            width: 100%;
+            background-color: var(--blanco);
+        }
+        .item{
+        padding: 1rem;
+                
+      }
+      nav a{
+            color: var(--blanco);
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        .menu button{
+            padding: 1rem;
+            background-color:transparent;
+            border: none;
+            border-radius: 3px;
+            font-size: 1em;
+            padding: 0.5rem;
+            font-family: 'Marcellus', serif;
+            color: var(--blanco);
+        }nav{
+            display: flex;
+            flex-direction: column;
+            padding: 1%;
+            background-color: #000;            
+        }.menu{
+            width: 100%;
+            display: none;
+
+        }
+
+        .menu.active{
+            display: flex;
+            transform: translateY(0%);
+        }
+
+        nav a:hover{
+            background-color: #0B3860;
+            width: 100%;
+        }
+
+
+
+        div#textosl p {
+            font-size: 1em;
+            margin-top: -2%;
+            width: 73%;
+        }
+      .menu-hr{
+            width: 239%;
+    margin-right: 120%;
+    background-color: var(--blanco);
+    margin-top: 16%;
+      }
+
+      #titulo h1{
+            font-size: 1.5rem;
+      }
+
+      #opinion1{
+            width: 75%;
+      }
+
+      #opinion{   
+            display: none;
+            
+      }
+      .nombre1 h5{           
+       font-size: 0.9rem;
+      }
+
+
+      .pie-pagina .texto {
+            display: flex;
+            height: 40rem;
+            flex-flow: column;
+        }
+
+
+      .parrafo{
+            width: 107%;
+      }
+
+}
