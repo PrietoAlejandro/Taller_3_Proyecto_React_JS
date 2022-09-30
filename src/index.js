@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+//import Login from './components/Login/login';
+//import Dashboard from './components/dashboard/dashboard';
+//import Dashboard2 from './components/dashboard/dashboard2';
+
+
+//import Login from './pages/Login/Login.js';
+import Dashboard from './pages/Dashboard/Dashboard';
+//import Dashboard2 from './pages/Dashboard/Dashboard';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+  <Dashboard/>  
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
