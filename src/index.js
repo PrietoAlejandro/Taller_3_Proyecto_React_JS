@@ -1,26 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-/*import Banner from './components/banner/Banner';
-import Descripcion from './components/descripcion/Descripcion';
-import Feature from './components/feature/Feature';
-import Nav from './components/nav/nav';
-import Mapa from './components/Mapa/mapa';
-import Opiniones from './components/opiniones/opiniones';
-import Footer from './components/footer/footer';*/
+import
+{
+  BrowserRouter as Router,
+  Routes,
+  Route   
+} 
+from "react-router-dom";
+
 import Index from './pages/index/index';
-
-//import Registro from './pages/registrar/registrar';
+import Registro from './pages/registrar/registrar';
+import Login from './pages/Login/Login.js';
+import Dashboard from './pages/Dashboard/Dashboard.js';
 import './index.css';
-
-
-//<Registro/>
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Index/>
-    {/*<Registro/>*/}
+
+  <Router>
+    <Routes>
+      <Route exact path="/" element={<Index />}></Route>
+      <Route exact path="/registro" element={<Registro />}></Route>
+      <Route exact path="/Login" element={<Login />}></Route>
+      <Route exact path="/Dashboard" element={<Dashboard />}></Route>
+    </Routes>
+  </Router>
+
+    {/*<Index/>
+    <Registro/>*/}
   </React.StrictMode>
 );
 

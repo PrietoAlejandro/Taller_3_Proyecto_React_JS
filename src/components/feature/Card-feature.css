@@ -1,58 +1,72 @@
-
-
-.feature-box{
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    padding: 2rem;
-    border-radius: 5px;
-}
-
-.feature-box i{
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.feature-box h3{
-    font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-}
-
-.box-dark{
-    background-color: rgba(0, 0, 0, 0.5)
-}
-
-.box-blue{
-    background-color: #00325eae;
-}
-
-@media screen and (min-width: 320px) and (max-width: 850px)
+@media screen and (min-width: 1024px)
 {
+    .feature-box
+    {
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        padding: 3rem;
+        border-radius: 5px;
+        width: 15rem;
+    }
     
-
-.feature-box{
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    padding: 2rem;
-    border-radius: 5px;
-}
-
-.feature-box i{
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.feature-box h3{
-    font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-}
-
-.box-dark{
-    background-color: rgba(0, 0, 0, 0.5)
-}
-
-.box-blue{
-    background-color: #00325eae;
-}
-}
+    .feature-box i
+    {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .feature-box h3
+    {
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+    
+    .box-dark
+    {
+        background-color: rgba(0, 0, 0, 0.5);
+    
+    }
+    
+    .box-blue
+    {
+        background-color: #00325eae;
+    }
+    }
+    @media screen and (min-width: 320px)  and (max-width:1023px)
+    {
+        .feature-box
+        {
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            padding: 3rem;
+            border-radius: 5px;
+            width: 15rem;
+        }
+        
+        .feature-box i
+        {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .feature-box h3
+        {
+            font-size: 1.5rem;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+        }
+        
+        .box-dark
+        {
+            background-color: rgba(0, 0, 0, 0.5);
+        
+        }
+        
+        .box-blue
+        {
+            background-color: #00325eae;
+        }
+    }

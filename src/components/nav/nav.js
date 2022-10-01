@@ -1,25 +1,26 @@
-import logonav from "./Hotelia horizontal blanco.svg";
-import "./nav.css";
-function nav()
-{
+
+
+import React from "react";
+import './nav.css'
+import svgImage from './Hotelia horizontal blanco.svg'
+
+import {Link} from 'react-router-dom';
+function Nav() {
     return(
-    <nav>
-        <div className="logo">
-        <img src={logonav} alt="logonav"/>
+        <nav className="nav-main">
+        <div className="logoq">
+            <img src={svgImage} alt="Imagen"/>
             <i className="fa-solid fa-bars hamb"></i>
         </div>
-        
         <div className="menu">
-            <a href="index.html" class="item">Inicio</a>
-            <a href="ubicanos.html" class="item">Ubícanos</a>
-            <a href="opiniones.html" class="item">Opiniones</a>
-            <hr className="menu-hr" noshade=""></hr>
-           {/* <link tp="/" className='item'> <i className="enlace"></i> </link> */}
+            <Link to="/">Inicio</Link>
+            <a href="">Ubícanos</a>
+            <a href="">Opiniones</a>
+            <Link to="/Login"><button class="item">Inicio sesion</button></Link>
+            
         </div>
     </nav>
 
     );
 }
-
-export default nav;
-
+export default Nav;

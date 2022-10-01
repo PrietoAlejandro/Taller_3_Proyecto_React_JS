@@ -19,8 +19,7 @@ function Index ()
             />
             <Opiniones/>
             <Footer/>
-        </section>
-        
+        </section>        
         );
     }
     
