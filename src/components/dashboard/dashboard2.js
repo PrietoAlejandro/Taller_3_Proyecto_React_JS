@@ -4,7 +4,7 @@ import "./dashboard.css"
 function Dashboard2() {
     return (
         <section class="seccion-2">
-        <div class="all-2">
+        <div class="alldash-2">
             <div class="titulo">
                 <h1>Bienvenido, Angie Vargas</h1>
             </div>
@@ -17,7 +17,7 @@ function Dashboard2() {
                     </div>
                     <button>Cambiar Contraseña</button>
                 </div>
-                <div class="all-3">
+                <div class="alldash-3">
                     <div class="lleno">
                         <div id="tipo">
                             <label for="tip-doc">Tipo de documento</label>
@@ -31,7 +31,7 @@ function Dashboard2() {
         
         
                     </div>
-                    <div class="all-4">
+                    <div class="alldash-4">
                         <div id="tipo">
                             <label for="nombre">Nombres</label>
                             <input type="text" name="nombre" placeholder="Angie Camila"></input>
@@ -42,7 +42,7 @@ function Dashboard2() {
         
                         </div>
                     </div>
-                    <div class="all-5">
+                    <div class="alldash-5">
         
                         <div id="tipo">
                             <label for="fecha">Fecha nacimiento</label>

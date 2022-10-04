@@ -27,11 +27,12 @@ body
  {
  font-family: 'Marcellus', serif;
  }
-.titulo
+.tituloubi
     {
     text-align: center;
     padding: 0.5rem;
     font-size: 2.5em;
+    color: #000;
     }
 .mapa
     {

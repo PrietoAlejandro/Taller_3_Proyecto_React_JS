@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root{
   --azulclaro: #48D6ED;
-  --azuloscuro: #337AB7;
+  --azuloscuro: #337AB7; 
   --azulnegro: #303342;
   --negro: #333333;
   --negro2: #000;
@@ -27,14 +27,7 @@ body{
 *{
       margin: 0%;
 }
-.seccion-arriba{
-      width: 17%;   
-      color: white;
-      display: flex;
-      flex-direction: column;
-      height: 100vh;  
-      position: fixed;
-}
+
 
 .izquierda{
       display: flex;
@@ -136,7 +129,7 @@ i#opciones{
     width: 30%;
 }
 
-.all-2{
+.alldash-2{
     background-color: rgba(255, 255, 255, 0.625);
     margin-left: 22%;
     margin-top: 3%;
@@ -145,7 +138,7 @@ i#opciones{
     height: 90%;
 }
 
-.all-3 img{
+.alldash-3 img{
     width: 20%;
 
 }
@@ -201,7 +194,7 @@ i#opciones{
     flex-direction: row;
 }
 
-.all-3{
+.alldash-3{
     font-size: 1em;
     width: 65%;
 }
@@ -213,7 +206,7 @@ i#opciones{
     
 }
 
-.all-4{
+.alldash-4{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
@@ -222,7 +215,7 @@ i#opciones{
 
 }
 
-.all-5{
+.alldash-5{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;

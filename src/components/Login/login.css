@@ -17,17 +17,25 @@
 {
     margin: 0;
 }
-body
+body.fondohoteliaa
 {
-    background: url(./habitacion.jpeg) no-repeat;
-    color: white;
+    
+    color: #000;
+}
+.fondologinho
+{
+    color: #000;
+    background-image:url(./habitacion.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 .sectionlo
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url(./login.jpeg) no-repeat;
+    
     opacity: 0.82;
     width: 370px;
     height: 10%;
@@ -35,14 +43,21 @@ body
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
+    
 }
-
-.login
+#loginimg
+{
+    background-image: url(./login.jpeg) no-repeat;
+}
+.login 
 {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 1%;
+    position: absolute;
+    background: url(./login.jpeg)no-repeat;
+    height: 66%;
 }
 .usericono
 {
@@ -108,6 +123,10 @@ p
 {
     width:10rem;
 }
+.fondologinhote
+{
+    margin-left: -120%;
+}
 #icono
 {
     display: flex;
@@ -123,13 +142,22 @@ p
     {
         margin: 0;
     }
-    body
+    body.fondohoteliaa
     {
-        background: url(./habitacion.jpeg) no-repeat;
-        background-size: cover;
+        
+        
         color: white;
         
     }
+    .fondologinho
+{
+   
+    color: #000;
+    background-image:url(./habitacion.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
     #icono img
     {
         width:10rem;
@@ -223,13 +251,21 @@ a{
     {
         margin: 0;
     }
-    body
+    body.fondohoteliaa
     {
-        background: url(./habitacion.jpeg) no-repeat;
+        
         background-size: cover;
         color: white;
       
     }
+    .fondologinho
+{
+   
+    color: #000;
+    background-image:url(./habitacion.jpeg);
+    background-size: cover;
+    
+}
     #icono img
     {
         width:10rem;

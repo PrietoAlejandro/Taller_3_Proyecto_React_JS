@@ -1,4 +1,5 @@
 import Fondol from "./Hotelia horizontal negro.svg";
+import Fondologin from "./habitacion.jpeg";
 import "./login.css"
 import
 {
@@ -6,13 +7,20 @@ import
   } 
   from "react-router-dom";
 
-function head() {
+function head() 
+{
     return (
         <section class="sectionlo">
-            <div id="icono">
-                <a href="index.html"><img src={Fondol} alt="fondo hotelia" /></a>
+
+            <div class="fondologinho">
+                <img src={Fondologin} alt="fondo hotelia" class="fondologinhote"/>
             </div>
-            <div class="login">
+
+            
+            <div class="login" id="loginimg">
+                <div id="icono">
+                    <img src={Fondol} alt="fondo hotelia" class="fondohoteliaa"/>
+                </div>
                 <div class="usericono"><i class="fa-solid fa-user"></i></div>
                 
                 <form action="#">
@@ -23,9 +31,11 @@ function head() {
                     <div class="sesion">
                         <label for="">Contraseña</label>
                         <input type="text"></input>
-                    </div>
-                 <Link to ="/Dashboard"><button id="inicia">Ingresar</button></Link>  
+
+                        <Link to ="/Dashboard"><button id="inicia">Ingresar</button></Link>  
                     <p>¿No tienes una cuenta?<Link to="/registro">Regístrate aquí.</Link></p>
+                    </div>
+                 
                 </form>
             </div>
         </section>

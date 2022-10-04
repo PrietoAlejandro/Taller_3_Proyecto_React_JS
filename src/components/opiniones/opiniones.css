@@ -21,7 +21,7 @@ h1{
       font-size: 1.5em;
 }
 
-.all {
+.alltodo {
     display: flex;
     justify-content: space-around;
     /* width: 100%; */
@@ -34,7 +34,7 @@ h1{
     margin-top: -2%;
     flex-direction: inherit;
 }
-.all img
+.alltodo img
 {
     border-radius: 50%;
     width: 50px;

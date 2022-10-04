@@ -6,7 +6,7 @@ function Opiniones()
     return (
         <section id="contenopi">
             <div id="titulo"><h1>Nuestros usuarios dicen...</h1></div>
-            <div className="all">
+            <div className="alltodo">
                 <div id="opinion" >
                     <div className="nombre">
                     <div class="nombre">
