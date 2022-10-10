@@ -6,6 +6,7 @@ import Mapa from '../../components/Mapa/mapa'
 import Opiniones from '../../components/opiniones/opiniones'
 import Footer from '../../components/footer/footer'
 
+
 function Index ()
     {
     return(

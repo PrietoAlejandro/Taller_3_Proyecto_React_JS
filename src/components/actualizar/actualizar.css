@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root
+{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+.fondoregactu
+{
+    display: flex;               
+    background: url('./Fondoreg.jpg');
+    width: 100%;
+    height: 969px;
+}
+.featureactu-blue3
+        {
+        background-color: #0d4070e0;
+        }
+        .feature3actu
+        {                         
+            width: 90%;
+            min-width: 20px;
+            max-width: 480px;            
+            height: 969px;                    
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+            
+        }
+#fraseactu
+{
+    padding-top: 20px;
+    font-size: 45px;
+    color: var(--blanco);
+    text-align: center;
+    font-family: Marcellus;
+}
+.featureactu-white4
+{            
+background-color:   #eaeff3e8;
+}
+.feature4actu
+{                         
+    width: 100%;
+    min-width: 10px;
+    max-width: 100%;
+    height: 90%;
+    margin: 2.4rem;
+    padding: 10px;         
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;    
+    justify-content: center;
+    border-radius: 5px;
+}
+.formregactu{
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 25px;
+}
+.check{
+    text-align: center;   
+    font-size: 24px;         
+}
+.checkbox{
+    font-size: 24px;
+}
+.acepto{
+    color: #000;            
+}
+
+.botonreg{
+    text-align: center;
+}
+.butreg{            
+    width: 200px;
+    background-color: rgb(39, 39, 39);
+    color: #efefef;
+    font-size: 30px;
+    font-family: Marcellus;
+    border-radius: 5px;
+}
+#ti
+{
+    font-size: 60px;
+    font-family: Marcellus;
+}
+#campotip
+{
+    width: 30%;
+    font-size: 20px;
+}
+/*Resolución mobile*/
+@media screen and (min-width: 320px) 
+{
+    .fondoregactu
+{
+    display: flex;               
+    background: url('./Fondoreg.jpg');
+    width: 100%;
+    height: 200%;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+}
+.feature-blue3
+{
+background-color: #0d4070e0;
+}
+.feature3
+{              
+    margin-top: 20px;           
+    width: 100%;
+    min-width: 20px;
+    max-width: 100%;            
+    height: 90px;                    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    
+}
+.hotelia
+{
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 27px;
+}
+#fraseactu
+{
+    
+    font-size: 20px;
+    color: var(--blanco);
+    text-align: center;
+    font-family: Marcellus;
+}
+.positiofraseactu
+{
+    margin-top: -8%;
+    margin-left: -9px;
+}
+.feature-white4
+{            
+background-color:   #eaeff3e8;
+}
+.feature4
+{                         
+    width: 100%;
+    min-width: 10px;
+    max-width: 100%;
+    height: 100%;
+    margin: 1.2rem;
+    padding: 10px;
+    margin-top: 20px;         
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;    
+    justify-content: center;
+    border-radius: 5px;
+}
+.formregactu
+{
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 25px;
+    margin-top: -30px;
+    font-size: 12px;
+    width: 100%;
+}
+.check
+{
+    text-align: center;   
+    font-size: 24px;         
+    margin-top: -30px;
+}
+.checkbox
+{
+    font-size: 24px;
+}
+.acepto
+{
+    color: #000; 
+    font-size: 10px;           
+}
+
+.botonregactu
+{
+    margin-top: -50px;
+    text-align: center;
+}
+.butregactu
+{            
+    width: 200px;
+    background-color: rgb(39, 39, 39);
+    color: #efefef;
+    font-size: 10px;
+    margin-top: -100px;
+    font-family: Marcellus;
+    border-radius: 5px;
+}
+#ti
+{
+    font-size: 40px;
+    font-family: Marcellus;
+}
+#campotip
+{
+    width: 30%;
+    font-size: 20px;
+}
+.form-control
+{
+    font-size: 10px;
+    height: 22px;
+}
+}
+
+
+/*Resolución mobile*/
+@media screen and (min-width: 1024px) 
+{
+
+        .fondoregactu
+        {
+            display: flex;               
+            background: url("./Fondoreg.jpg");
+            width: 100%;
+            height: 969px;
+            flex-direction: column;
+        }
+        .feature-blue3
+        {
+        background-color: #0d4070e0;
+        }
+        .feature3
+        {                         
+            width: 90%;
+            min-width: 20px;
+            max-width: 370px;            
+            height: 969px;                    
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+            
+        }
+        #frase
+        {
+            padding-top: 20px;
+            font-size: 45px;
+            color: var(--blanco);
+            text-align: center;
+            font-family: Marcellus;
+        }
+        .feature-white4
+        {            
+        background-color:   #eaeff3e8;
+        }
+        .feature4
+        {                         
+            width: 100%;
+            min-width: 10px;
+            max-width: 58%;
+            height: 90%;
+            margin: 2.4rem;
+            padding: 10px;         
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;    
+            justify-content: center;
+            border-radius: 5px;
+        }
+        .formregactu
+        {
+            color: #000;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 25px;
+            font-size: 20px;
+        }
+        .check
+        {
+            text-align: center;   
+            font-size: 24px;         
+        }
+        .checkbox
+        {
+            font-size: 24px;
+        }
+        .acepto
+        {
+            color: #000;            
+        }
+
+        .botonregactu
+        {
+            text-align: center;
+        }
+        .butregactu
+        {            
+            width: 200px;
+            background-color: rgb(39, 39, 39);
+            color: #efefef;
+            font-size: 30px;
+            font-family: Marcellus;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        #ti
+        {
+            font-size: 60px;
+            font-family: Marcellus;
+        }
+        #campotip
+        {
+            width: 30%;
+            font-size: 20px;
+        }
+        .form-control
+        {
+            font-size: 20px;
+            height: 50px;
+        }
+}
