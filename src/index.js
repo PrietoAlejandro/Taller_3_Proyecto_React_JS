@@ -14,7 +14,7 @@ import Registro from './pages/registrar/registrar';
 import Login from './pages/Login/Login.js';
 import Dashboard from './pages/Dashboard/Dashboard.js';
 import Listar from './pages/listarUsuario';
-import Actualizar from './pages/actualizar/actualizar'
+import Actualizar from './components/actualizar/formularioA'
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
